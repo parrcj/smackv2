@@ -35,6 +35,7 @@
 		7C5BDECC220F4C12004DD884 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5BDECB220F4C12004DD884 /* SocketService.swift */; };
 		7CB9A9B82211C8BE008D30F9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB9A9B72211C8BE008D30F9 /* Message.swift */; };
 		7CB9A9BA2211D166008D30F9 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB9A9B92211D166008D30F9 /* KeyboardBoundView.swift */; };
+		7CB9A9BC2211D9E1008D30F9 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB9A9BB2211D9E1008D30F9 /* MessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		7C5BDECB220F4C12004DD884 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		7CB9A9B72211C8BE008D30F9 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		7CB9A9B92211D166008D30F9 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardBoundView.swift; path = "Smack Assets/KeyboardBind View/KeyboardBoundView.swift"; sourceTree = SOURCE_ROOT; };
+		7CB9A9BB2211D9E1008D30F9 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		92CC93F46165E67AE63107D2 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,6 +158,7 @@
 				7C5BDEB8220CB694004DD884 /* AvatarCell.swift */,
 				7C5BDEBA220D814E004DD884 /* CircleImage.swift */,
 				7C5BDEC5220F2828004DD884 /* ChannelCell.swift */,
+				7CB9A9BB2211D9E1008D30F9 /* MessageCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				7C5BDEC6220F2828004DD884 /* ChannelCell.swift in Sources */,
 				7C0C96622208CF23007DC7CA /* ChannelVC.swift in Sources */,
 				7C5BDEB5220CB30F004DD884 /* AvatarPickerVC.swift in Sources */,
+				7CB9A9BC2211D9E1008D30F9 /* MessageCell.swift in Sources */,
 				7C5BDEB1220B333B004DD884 /* RoundedButton.swift in Sources */,
 				7CB9A9B82211C8BE008D30F9 /* Message.swift in Sources */,
 				7C5BDEC4220F1D68004DD884 /* Channel.swift in Sources */,
